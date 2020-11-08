@@ -8,6 +8,8 @@ Desc: Simulates an ATM by displaying a menu of options that can
 
 Date Due: 29 September 2020
 """
+import redis
+r = redis.Redis()
 
 def input_PIN():
     user_pin = input("\nPlease enter your user PIN: ")
